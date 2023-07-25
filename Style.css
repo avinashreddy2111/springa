@@ -1,0 +1,92 @@
+/* CSS for the diary app */
+
+body {
+    background-image: url("trees-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.date-picker {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.date-picker label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+}
+
+.date-picker input[type="date"] {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.diary textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.diary input[type="file"] {
+    margin-bottom: 10px;
+}
+
+.diary button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.diary button:hover {
+    background-color: #286090;
+}
+
+.diary button:last-child {
+    margin-right: 0;
+}
+
+#attachmentContainer {
+    margin-top: 10px;
+}
+
+#attachmentContainer img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.attachment-image {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.diary textarea {
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
